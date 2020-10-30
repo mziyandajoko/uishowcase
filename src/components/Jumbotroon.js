@@ -18,7 +18,7 @@ class Hero extends Component {
   </p>
   <Row>
       <Col>
-            <CustomButton buttonStyle='primary'>Get inTouch</CustomButton>
+            <CustomButton buttonStyle='primary' href="/pages/Contact">Get inTouch</CustomButton>
       </Col>
   </Row>
 

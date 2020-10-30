@@ -10,6 +10,7 @@ export const CustomButton = ({
     onClick,
     buttonStyle,
     buttonSize,
+    href,
 }) => {
     const checkButtonStyle = STYLES.includes(buttonStyle) ? buttonStyle : STYLES[0]
     const checkButtonSize = SIZES.includes(buttonSize) ? buttonSize : SIZES[0]
@@ -20,6 +21,7 @@ export const CustomButton = ({
         onClick={onClick}
         type={type}
         buttonStyle={buttonStyle}
+        href={href}
         >{children}</Button>
         )
     };
